@@ -1,0 +1,36 @@
+{
+  "gmail": {
+    "credentials_file": "credentials.json",
+    "token_file": "token.json",
+    "otp_regex": "\\b(\\d{6})\\b",
+    "poll_interval_seconds": 5,
+    "max_wait_seconds": 90,
+    "search_query_template": "is:inbox newer_than:1d subject:(OTP OR verification code)"
+  },
+  "selenium": {
+    "headless": false,
+    "implicit_wait_seconds": 5,
+    "page_load_timeout_seconds": 45,
+    "page_load_strategy": "eager",
+    "element_wait_seconds": 15
+  },
+  "chrome": {
+    "user_data_dir": "C:/Users/YourUser/AppData/Local/Google/Chrome/User Data",
+    "use_local_profile_cache": true,
+    "automation_user_data_dir": "automation_chrome_data",
+    "refresh_cached_profile_each_run": false
+  },
+  "login_flow": {
+    "login_url": "https://svp-international.pacc.sa/auth/login",
+    "username_selector": "input[placeholder='Enter your email']",
+    "password_selector": "input[placeholder='Enter your password']",
+    "submit_selector": "button[data-test-id='loginInit']",
+    "otp_selector": "input[name='otp']",
+    "otp_submit_selector": "button[type='submit']"
+  },
+  "files": {
+    "accounts_file": "accounts.txt",
+    "logs_dir": "logs",
+    "results_file": "run_results.txt"
+  }
+}

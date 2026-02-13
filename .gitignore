@@ -1,0 +1,11 @@
+﻿__pycache__/
+*.pyc
+.venv/
+logs/
+run_results.txt
+token.json
+config.json
+accounts.txt
+credentials.json
+automation_chrome_data
+automation_chrome_data/*

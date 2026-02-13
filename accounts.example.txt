@@ -1,0 +1,5 @@
+# Format:
+# account_email,login_username,login_password,profile_directory
+# profile_directory is the Chrome profile folder name inside user_data_dir (e.g. Default, Profile 1)
+user1@example.com,user1@example.com,password123,Default
+user2@example.com,user2@example.com,password456,Profile 1
